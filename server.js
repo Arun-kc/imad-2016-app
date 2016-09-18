@@ -6,40 +6,107 @@ var app = express();
 app.use(morgan('combined'));
 
 
-
-var articleone={
-    title: 'Article One',
-    heading: 'Article One',
-    date: 'Sep 18, 2016',
-    content: `
-                <p>
-                    This is the content for article one.This is the content for article one.This is the content for article one.
-                    This is the content for article one.This is the content for article one.This is the content for article one.
-                    This is the content for article one.This is the content for article one.This is the content for article one.
-                    This is the content for article one.This is the content for article one.This is the content for article one.
-                    This is the content for article one.This is the content for article one.This is the content for article one.
-                    This is the content for article one.This is the content for article one.This is the content for article one.
-                
-                </p>
-                 <p>
-                    This is the content for article one.This is the content for article one.This is the content for article one.
-                    This is the content for article one.This is the content for article one.This is the content for article one.
-                    This is the content for article one.This is the content for article one.This is the content for article one.
-                    This is the content for article one.This is the content for article one.This is the content for article one.
-                    This is the content for article one.This is the content for article one.This is the content for article one.
-                    This is the content for article one.This is the content for article one.This is the content for article one.
-                    
-                </p>
-                 <p>
-                    This is the content for article one.This is the content for article one.This is the content for article one.
-                    This is the content for article one.This is the content for article one.This is the content for article one.
-                    This is the content for article one.This is the content for article one.This is the content for article one.
-                    This is the content for article one.This is the content for article one.This is the content for article one.
-                    This is the content for article one.This is the content for article one.This is the content for article one.
-                    This is the content for article one.This is the content for article one.This is the content for article one.
-                    
-                </p>
-            `
+var articles={
+         'article-one':{
+            title: 'Article One',
+            heading: 'Article One',
+            date: 'Sep 18, 2016',
+            content: `
+                        <p>
+                            This is the content for article one.This is the content for article one.This is the content for article one.
+                            This is the content for article one.This is the content for article one.This is the content for article one.
+                            This is the content for article one.This is the content for article one.This is the content for article one.
+                            This is the content for article one.This is the content for article one.This is the content for article one.
+                            This is the content for article one.This is the content for article one.This is the content for article one.
+                            This is the content for article one.This is the content for article one.This is the content for article one.
+                        
+                        </p>
+                         <p>
+                            This is the content for article one.This is the content for article one.This is the content for article one.
+                            This is the content for article one.This is the content for article one.This is the content for article one.
+                            This is the content for article one.This is the content for article one.This is the content for article one.
+                            This is the content for article one.This is the content for article one.This is the content for article one.
+                            This is the content for article one.This is the content for article one.This is the content for article one.
+                            This is the content for article one.This is the content for article one.This is the content for article one.
+                            
+                        </p>
+                         <p>
+                            This is the content for article one.This is the content for article one.This is the content for article one.
+                            This is the content for article one.This is the content for article one.This is the content for article one.
+                            This is the content for article one.This is the content for article one.This is the content for article one.
+                            This is the content for article one.This is the content for article one.This is the content for article one.
+                            This is the content for article one.This is the content for article one.This is the content for article one.
+                            This is the content for article one.This is the content for article one.This is the content for article one.
+                            
+                        </p>
+                    `
+        },
+         'article-two':{
+            title: 'Article Two',
+            heading: 'Article Two',
+            date: 'Sep 18, 2016',
+            content: `
+                        <p>
+                            This is the content for article one.This is the content for article one.This is the content for article one.
+                            This is the content for article one.This is the content for article one.This is the content for article one.
+                            This is the content for article one.This is the content for article one.This is the content for article one.
+                            This is the content for article one.This is the content for article one.This is the content for article one.
+                            This is the content for article one.This is the content for article one.This is the content for article one.
+                            This is the content for article one.This is the content for article one.This is the content for article one.
+                        
+                        </p>
+                         <p>
+                            This is the content for article one.This is the content for article one.This is the content for article one.
+                            This is the content for article one.This is the content for article one.This is the content for article one.
+                            This is the content for article one.This is the content for article one.This is the content for article one.
+                            This is the content for article one.This is the content for article one.This is the content for article one.
+                            This is the content for article one.This is the content for article one.This is the content for article one.
+                            This is the content for article one.This is the content for article one.This is the content for article one.
+                            
+                        </p>
+                         <p>
+                            This is the content for article one.This is the content for article one.This is the content for article one.
+                            This is the content for article one.This is the content for article one.This is the content for article one.
+                            This is the content for article one.This is the content for article one.This is the content for article one.
+                            This is the content for article one.This is the content for article one.This is the content for article one.
+                            This is the content for article one.This is the content for article one.This is the content for article one.
+                            This is the content for article one.This is the content for article one.This is the content for article one.
+                            
+                        </p>`
+        },
+         'article-three':{
+            title: 'Article Three',
+            heading: 'Article Three',
+            date: 'Sep 18, 2016',
+            content: `
+                        <p>
+                            This is the content for article one.This is the content for article one.This is the content for article one.
+                            This is the content for article one.This is the content for article one.This is the content for article one.
+                            This is the content for article one.This is the content for article one.This is the content for article one.
+                            This is the content for article one.This is the content for article one.This is the content for article one.
+                            This is the content for article one.This is the content for article one.This is the content for article one.
+                            This is the content for article one.This is the content for article one.This is the content for article one.
+                        
+                        </p>
+                         <p>
+                            This is the content for article one.This is the content for article one.This is the content for article one.
+                            This is the content for article one.This is the content for article one.This is the content for article one.
+                            This is the content for article one.This is the content for article one.This is the content for article one.
+                            This is the content for article one.This is the content for article one.This is the content for article one.
+                            This is the content for article one.This is the content for article one.This is the content for article one.
+                            This is the content for article one.This is the content for article one.This is the content for article one.
+                            
+                        </p>
+                         <p>
+                            This is the content for article one.This is the content for article one.This is the content for article one.
+                            This is the content for article one.This is the content for article one.This is the content for article one.
+                            This is the content for article one.This is the content for article one.This is the content for article one.
+                            This is the content for article one.This is the content for article one.This is the content for article one.
+                            This is the content for article one.This is the content for article one.This is the content for article one.
+                            This is the content for article one.This is the content for article one.This is the content for article one.
+                            
+                        </p>`
+        }
 };
 
 function createTemplate(data){
@@ -81,23 +148,15 @@ function createTemplate(data){
         return htmlTemplate;
 }
 
-
-
-
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 
-app.get('/article-one', function (req, res) {
-   res.send(createTemplate(articleone));
-});
-
-app.get('/article-two', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'article-two.html'));
-});
-
-app.get('/article-three', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'article-three.html'));
+app.get('/:articleName', function (req, res) {
+    //articleName == articleone
+    //articles[articleName] == {}content object for articleone
+    var articleName = req.params.articleName;
+   res.send(createTemplate(articles[articleName]));
 });
 
 app.get('/ui/style.css', function (req, res) {
