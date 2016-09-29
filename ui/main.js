@@ -19,6 +19,6 @@ button.onclick = function(){
     //Not done yet
   };
   //Make a request
-  request.open('GET',document.URL+'counter',true);
+  request.open('GET',document.URL+'/counter',true);
   request.sent(null);
 };
