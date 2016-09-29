@@ -19,4 +19,6 @@ button.onclick = function(){
     //Not done yet
   };
   //Make a request
+  request.open('GET',"http://arun-kc.imad.hasura-app.io/counter",true);
+  request.sent(null);
 };
