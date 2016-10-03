@@ -44,7 +44,7 @@ submit.onclick = function(){
       
                 }
             var ul = document.getElementById('namelist');
-             ul.innerHTNL=list;
+             ul.innerHTML=list;
        }
     }  
     //Not done yet
