@@ -21,24 +21,6 @@ var articles={
                             This is the content for article one.This is the content for article one.This is the content for article one.
                         
                         </p>
-                         <p>
-                            This is the content for article one.This is the content for article one.This is the content for article one.
-                            This is the content for article one.This is the content for article one.This is the content for article one.
-                            This is the content for article one.This is the content for article one.This is the content for article one.
-                            This is the content for article one.This is the content for article one.This is the content for article one.
-                            This is the content for article one.This is the content for article one.This is the content for article one.
-                            This is the content for article one.This is the content for article one.This is the content for article one.
-                            
-                        </p>
-                         <p>
-                            This is the content for article one.This is the content for article one.This is the content for article one.
-                            This is the content for article one.This is the content for article one.This is the content for article one.
-                            This is the content for article one.This is the content for article one.This is the content for article one.
-                            This is the content for article one.This is the content for article one.This is the content for article one.
-                            This is the content for article one.This is the content for article one.This is the content for article one.
-                            This is the content for article one.This is the content for article one.This is the content for article one.
-                            
-                        </p>
                     `
         },
          'article-two':{
@@ -55,48 +37,13 @@ var articles={
                             This is the content for article one.This is the content for article one.This is the content for article one.
                         
                         </p>
-                         <p>
-                            This is the content for article one.This is the content for article one.This is the content for article one.
-                            This is the content for article one.This is the content for article one.This is the content for article one.
-                            This is the content for article one.This is the content for article one.This is the content for article one.
-                            This is the content for article one.This is the content for article one.This is the content for article one.
-                            This is the content for article one.This is the content for article one.This is the content for article one.
-                            This is the content for article one.This is the content for article one.This is the content for article one.
-                            
-                        </p>
-                         <p>
-                            This is the content for article one.This is the content for article one.This is the content for article one.
-                            This is the content for article one.This is the content for article one.This is the content for article one.
-                            This is the content for article one.This is the content for article one.This is the content for article one.
-                            This is the content for article one.This is the content for article one.This is the content for article one.
-                            This is the content for article one.This is the content for article one.This is the content for article one.
-                            This is the content for article one.This is the content for article one.This is the content for article one.
-                            
-                        </p>`
+                         `
         },
          'article-three':{
             title: 'Article Three',
             heading: 'Article Three',
             date: 'Sep 18, 2016',
             content: `
-                        <p>
-                            This is the content for article one.This is the content for article one.This is the content for article one.
-                            This is the content for article one.This is the content for article one.This is the content for article one.
-                            This is the content for article one.This is the content for article one.This is the content for article one.
-                            This is the content for article one.This is the content for article one.This is the content for article one.
-                            This is the content for article one.This is the content for article one.This is the content for article one.
-                            This is the content for article one.This is the content for article one.This is the content for article one.
-                        
-                        </p>
-                         <p>
-                            This is the content for article one.This is the content for article one.This is the content for article one.
-                            This is the content for article one.This is the content for article one.This is the content for article one.
-                            This is the content for article one.This is the content for article one.This is the content for article one.
-                            This is the content for article one.This is the content for article one.This is the content for article one.
-                            This is the content for article one.This is the content for article one.This is the content for article one.
-                            This is the content for article one.This is the content for article one.This is the content for article one.
-                            
-                        </p>
                          <p>
                             This is the content for article one.This is the content for article one.This is the content for article one.
                             This is the content for article one.This is the content for article one.This is the content for article one.
